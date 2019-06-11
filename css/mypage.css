@@ -1,0 +1,417 @@
+/*右上角的链接*/
+.go{
+	position: fixed;
+	right: 5%;
+	top: 5%;
+	z-index: 99;
+}
+/*防止图片不符合*/
+html,body,.section{
+	min-width: 990px;
+	height: 720px;
+}
+.next{
+	position: absolute;
+	right: 10%;
+	bottom: 120px;
+	z-index: 999;
+	cursor: pointer;
+	animation: next_1 0.6s linear infinite;
+}
+@keyframes next_1{
+	50%{
+		bottom: 145px;
+	}
+	100%{
+		bottom: 120px;
+	}
+}
+
+
+/*第一屏制作*/
+.section1{
+	background: #fadd67 url(../images/t1fpyqfltdxxaiulhh-990-600.png) no-repeat center bottom;
+}
+.fly1{
+	position: absolute;
+	right: 20%;
+	top: 10%;
+}
+.fly2{
+	position: absolute;
+	left: 40%;
+	margin-left: -80px;
+	bottom: 350px;
+}
+.goods{
+	position: absolute;
+	left: 50%;
+	bottom: 150px;
+	margin-left: -430px;
+}
+
+/*第二屏制作*/
+.section2{
+	background:#84a2d4  url(../images/t1zdgpfi8exxca6rfn-2000-600.png) no-repeat center bottom;
+}
+.big_box{
+	position: absolute;
+	left: 50%;
+	margin-left:-495px ;
+	bottom: 0;
+	/*background: rgba(0,0,0,.3);*/
+	width: 990px;
+	height: 500px;
+}
+.search{
+	width: 222px;
+	height: 45px;
+	background:url(../images/search.png) no-repeat;
+	position: absolute;
+	top: 140px;
+	right: -4px;
+	display: none;
+}
+.search-text{
+	position: absolute;
+	right: 30px;
+	top: 5px;
+	opacity: 0;
+}
+.search-pic{
+	position: absolute;
+	top: 140px;
+	right:400px;
+	display: none;
+}
+.goods-2{
+	height: 100px;
+	position: absolute;
+	left: 300px;
+	top: 200px;
+	margin-left:-20px;
+	display:none ;
+}
+.section2-text1,.section2-text2{
+	position: absolute;
+	top:15%;
+	left: 36%;
+}
+.section2-text2{
+	opacity: 0;
+}
+.sofa-2{
+	width: 102px;
+	position: absolute;
+	bottom: 360px;
+    left: 362px;
+    display: none;
+    z-index: 10;
+}
+.cover{
+	width: 106px;
+	height: 80px;
+	position: absolute;
+	bottom: 351px;
+    left: 375px;
+    background: #fff;
+    z-index: 5;
+    display: none;
+}
+/*第三屏制作*/
+.section3{
+	background: #ef674d;
+	z-index: 1;
+}
+.section3-main{
+	width: 700px;
+	height: 500px;
+	background: url(../images/main.png) no-repeat center center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 50px;
+}
+.section3-pic1{
+	/*background: rgba(0,0,0,.3);*/
+	width: 300px;
+	height: 250px;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}
+.section3-pic3,.section3-pic3-a{
+	position: absolute;
+	bottom: 35px;
+	left: 0;
+}
+.sofa-3,.sofa-3-a{
+	position: absolute;
+	bottom: 200px;
+	left: 115px;
+	display: none;
+}
+.sofa-3-a{
+	position: absolute;
+	z-index: 1;
+}
+.section3-pic2-a{
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+.section3-pic3-a{
+	opacity: 0;
+}
+/*第四屏制作*/
+.section4{
+	background: #fed url(../images/t1iresfnxaxxca6rfn-2000-600.png) no-repeat center bottom;
+}
+.cloud{
+	position: absolute;
+	left: 50%;
+	bottom: 600px;
+}
+.words-04{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 500px;
+}
+.words-04-a{
+	opacity: 0;
+}
+.shop-car{
+	width: 500px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 45px;
+}
+.shop-car-sofa{
+	position: absolute;
+	left: 150px;
+	bottom: 200px;
+	display: none;
+}
+.form-01{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 180px;
+	/*background: rgba(0,0,0,.3);*/
+}
+.form-01 img{
+	opacity: 0;
+}
+.form-01-pic2{
+	position: absolute;
+	top: 60px;
+	left: 60px;
+}
+.car01{
+	width: 407px;
+	position: absolute;
+	left: 40%;
+	bottom: 0px;
+	transform: translateX(-50%);
+	z-index: 50;
+}
+/*第五屏制作*/
+.section5{
+	background: #d04759 url(../images/t1yisqfa4exxa3gmkg-2000-1500.png);
+	/*overflow: hidden;*/
+	perspective: :;00;
+	-webkit-perspective: 500;
+	z-index: 1;
+}
+.words-05{
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	opacity: 0;
+}
+.card-05{
+	position: absolute;
+	left: 20%;
+	bottom: 200px;
+	z-index: 10;
+}
+.order-05{
+	position: absolute;
+	left: 27%;
+	bottom: 270px;
+}
+.t1f-05{
+	position: absolute;
+	left: 25%;
+	bottom: 700px;
+	display: none;
+}
+.mouse-05{
+	position: absolute;
+	right: 20%;
+	bottom: 200px;
+}
+.mouse-05-a{
+	display: none;
+}
+.hand-05{
+	position: absolute;
+	right: 24%;
+	bottom: -250px;
+}
+.words-05-a{
+	animation: words05 2s  forwards;
+}
+@keyframes words05{
+	100%{
+		opacity: 1;
+		top: 100px;
+		transform: rotateY(360deg) translateZ(100px);
+	}
+}
+.overFlow{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/*第六屏制作*/
+.section6{
+	background: #84d9ed url(../images/t1dvj.fn0gxxb0_fua-2500-600.png) no-repeat 25% 100%;
+}
+.box-06{
+	position: absolute;
+	left: 10%;
+	bottom:545px;
+	z-index: 10;
+}
+.car-06{
+	position: absolute;
+	left: 45%;
+	transform: translateX(-50%);
+	bottom: 0;
+	z-index: 15;
+}
+.num-88{
+	position: absolute;
+	left: 50%;
+	bottom: 123px;
+	z-index: 10;
+}
+.words-06{
+	position: absolute;
+	left: 5%;
+	bottom: 500px;
+	display: none;
+}
+.man-06{
+	position: absolute;
+	/*left: 30%;
+	bottom: 113px;*/
+	left: 33%;
+	bottom: 80px;
+	width: 68px;
+	display: none;
+}
+.women-06{
+	position: absolute;
+	right: 290px;
+	bottom: 115px;
+	width: 50px;
+	z-index: 10;
+	display: none;
+}
+.qyh-06{
+	position: absolute;
+	left: 55%;
+	bottom: 400px;
+	display: none;
+}
+.door-06{
+	position: absolute;
+	right: 285px;
+	bottom: 116px;
+	display: none;
+}
+/*第七屏制作*/
+.section7{
+	background: #8ac060 url(../images/t1wf1tfctaxxa3gmkg-2000-1500.png) no-repeat 50% 100%;
+}
+.star{
+	position: absolute;
+	left: 49%;
+	bottom: 440px;
+	margin-left:-295px;
+	opacity: 0;
+}
+.good-07{
+	position: absolute;
+	left: 50%;
+	bottom: 385px;
+	margin-left:-275px;
+	opacity: 0;
+}
+/*第八屏制作*/
+.section8{
+	background: url(../images/ksgw.png);
+}
+.btn-08{
+	position: absolute;
+	left: 35%;
+	bottom: 350px;
+	cursor: pointer;
+}
+.again{
+	position: absolute;
+	left: 75%;
+	bottom: 400px;
+}
+.hand-08{
+	position: absolute;
+	left: 46%;
+	bottom: 0;
+}
+
+
+/*动画*/
+.fly1{
+	animation: fly1 2s linear infinite ;
+}
+.fly2{
+	animation: fly2 1.5s linear infinite ;
+}
+.cloud{
+	animation: cloud1 60s linear infinite;
+}
+@keyframes fly1{
+	/*0%{
+		top:10%;
+	}*/
+	50%{
+		top: 15%;
+	}
+	100%{
+		top:10%;
+	}
+}
+@keyframes fly2{
+	50%{
+		bottom: 330px;
+	}
+	100%{
+		bottom: 350px;
+	}
+}
+@keyframes cloud1{
+	50%{
+		left: -10%;
+	}
+	100%{
+		left: 50%;
+	}
+}
+
